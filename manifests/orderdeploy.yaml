@@ -6,7 +6,7 @@ metadata:
   labels:
     app: order
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       app: order
@@ -25,5 +25,5 @@ spec:
               cpu: 100m
               memory: "64Mi"
             limits:
-              cpu: 200m
+              cpu: 150m
               memory: "128Mi"
